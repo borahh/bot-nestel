@@ -1,0 +1,28 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+  "name": "Bot Nestel",
+  // More info: https://containers.dev/guide/dockerfile
+  "build": {
+      // Path is relative to the devcontainer.json file.
+      "dockerfile": "Dockerfile"
+  },
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "npm install",
+
+  // Configure tool-specific properties.
+  // "customizations": {
+  //  "vscode": {
+  //    "extensions": ["astro-build.astro-vscode", "esbenp.prettier-vscode", "dbaeumer.vscode-eslint", "bradlc.vscode-tailwindcss", "austenc.tailwind-docs", "heybourn.headwind"]
+  //  }
+  // }
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+}
